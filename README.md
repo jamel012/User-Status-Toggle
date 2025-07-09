@@ -10,7 +10,7 @@ View all submitted users in a table
 
 Toggle a user's status (between 0 and 1) in real-time
 
-🚀 Features
+## 🚀 Features
 🔘 One-line form: Submit name and age
 
 🗂️ MySQL integration: All entries stored in a database table
@@ -21,7 +21,7 @@ Toggle a user's status (between 0 and 1) in real-time
 
 ⚡ Instant update: Status is updated on the page without refreshing (AJAX)
 
-🧱 Tech Stack
+## 🧱 Tech Stack
 Frontend: HTML, CSS, JavaScript
 
 Backend: PHP
@@ -30,7 +30,7 @@ Database: MySQL (via phpMyAdmin in XAMPP)
 
 Environment: XAMPP (Apache + MySQL)
 
-🏗️ Project Structure
+## 🏗️ Project Structure
 pgsql
 Copy
 Edit
@@ -41,7 +41,7 @@ project-folder/
 ├── fetch.php        # Displays all user records in a table
 ├── toggle.php       # Toggles user status via AJAX
 ├── README.md        # Project documentation
-🗃️ Database Setup
+## 🗃️ Database Setup
 Open phpMyAdmin (via http://localhost/phpmyadmin)
 
 Run the following SQL:
@@ -59,7 +59,7 @@ CREATE TABLE IF NOT EXISTS users (
   status TINYINT(1) DEFAULT 0
 );
 
-📌 How It Works
+## 📌 How It Works
 The form sends data to insert.php via POST.
 
 insert.php inserts the data into the MySQL database.
