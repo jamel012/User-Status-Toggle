@@ -36,7 +36,7 @@ Copy
 Edit
 project-folder/
 │
-├── index.html       # Main UI with form + table
+├── index.php       # Main UI with form + table
 ├── insert.php       # Handles form submission and inserts data into DB
 ├── fetch.php        # Displays all user records in a table
 ├── toggle.php       # Toggles user status via AJAX
